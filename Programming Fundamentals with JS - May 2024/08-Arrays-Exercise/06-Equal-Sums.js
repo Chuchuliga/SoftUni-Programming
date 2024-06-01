@@ -2,15 +2,14 @@ function equalSums(array) {
     let sumLeft = 0;
     let sumRight = 0;
     for (let i = 0; i < array.length; i++) {
-        let number = array[i];
         
         for (let a = 0; a < array.length; a++) {
-            let number2 = array[a];
+            let number = array[a];
             
             if (a < i) {
-                sumLeft += number2;
+                sumLeft += number;
             } else if (a > i) {
-                sumRight += number2;
+                sumRight += number;
             }
         }
         if (sumLeft === sumRight) {
@@ -28,4 +27,4 @@ function equalSums(array) {
     console.log(`no`);
 }
 
-equalSums()
+equalSums([1,2,3,3])
