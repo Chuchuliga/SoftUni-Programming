@@ -20,7 +20,7 @@ function passwordValidator(password) {
     }
 
     function checkIfHasMin2Digits(pass) {
-        const pattern = /[0-9]{2,}/;
+        let pattern = /[0-9]{2,}/;
         if (!pattern.test(pass)) {
             console.log(`Password must have at least 2 digits`);
             return false;
@@ -29,9 +29,9 @@ function passwordValidator(password) {
         }
     }
 
-    const isValidLenght = checkIfValidLenght(password);
-    const isAlphanumeric = checkIfAlphanumeric(password);
-    const has2Digits = checkIfHasMin2Digits(password);
+    let isValidLenght = checkIfValidLenght(password);
+    let isAlphanumeric = checkIfAlphanumeric(password);
+    let has2Digits = checkIfHasMin2Digits(password);
 
     if (isValidLenght && isAlphanumeric && has2Digits) {
         console.log(`Password is valid`);
@@ -39,5 +39,3 @@ function passwordValidator(password) {
 }
 
 passwordValidator(`logIn`)
-passwordValidator(`MyPass123`)
-passwordValidator(`Pa$s$s`)
