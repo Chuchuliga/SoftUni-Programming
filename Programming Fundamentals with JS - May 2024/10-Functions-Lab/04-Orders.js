@@ -16,4 +16,3 @@ function orders(product, numbers) {
 }
 
 orders(`water`, 5)
-orders(`coffee`, 2)
