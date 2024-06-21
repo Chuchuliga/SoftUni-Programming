@@ -41,4 +41,5 @@ function gladiatorInventory(array) {
     console.log(inventory.join(` `));
 }
 
-gladiatorInventory(['SWORD Shield Spear', 'Buy Bag', 'Trash Shield', 'Repair Spear', 'Upgrade SWORD-Steel']) // SWORD SWORD:Steal Bag Spear
+gladiatorInventory(['SWORD Shield Spear', 'Buy Bag', 'Trash Shield', 'Repair Spear', 'Upgrade SWORD-Steel'])
+// SWORD SWORD:Steal Bag Spear
