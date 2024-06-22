@@ -34,4 +34,8 @@ function computerStore(array) {
 }
 
 computerStore(['1050', '200', '450', '2', '18.50', '16.86', 'special'])
-computerStore(['regular']) 
+// Congratulations you've just bought a new computer!
+// Price without taxes: 1737.36$
+// Taxes: 347.47$ 
+// -----------
+// Total price: 1876.35$
