@@ -1,15 +1,15 @@
 function phoneBook(array) {
-    const object = {};
+    const phoneBook = {};
 
     for (const detiles of array) {
         const detilesArray = detiles.split(` `);
         const name = detilesArray[0];
         const number = detilesArray[1];
-        object[name] = number;
+        phoneBook[name] = number;
     }
 
-    for (const key in object) {
-        console.log(`${key} -> ${object[key]}`);
+    for (const key in phoneBook) {
+        console.log(`${key} -> ${phoneBook[key]}`);
     }
 }
 
