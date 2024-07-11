@@ -1,12 +1,12 @@
 function schoolGrades(array) {
     let students = {};
 
-    for (let string of array) {
+    for (const string of array) {
         let info = string.split(' ');
         let name = info.shift();
         let grades = [];
         
-        for (let grade of info) {
+        for (const grade of info) {
             grades.push(Number(grade));
         }
 
@@ -14,18 +14,18 @@ function schoolGrades(array) {
             students[name] = [];
         }
 
-        for (let grade of grades) {
+        for (const grade of grades) {
             students[name].push(grade);
         }
     }
 
     let sortedNames = Object.keys(students).sort();
 
-    for (let name of sortedNames) {
+    for (const name of sortedNames) {
         let grades = students[name];
         let totalGrades = 0;
 
-        for (let grade of grades) {
+        for (const grade of grades) {
             totalGrades += grade;
         }
 
