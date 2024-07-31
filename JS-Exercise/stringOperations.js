@@ -34,3 +34,19 @@ let text1 = "Hello, john@softuni.bg, you have been using john@softuni.bg in your
 let replacedText1 = text1.replaceAll(".bg", ".com");
 console.log(replacedText1);
 // Hello, john@softuni.com, you have been using john@softuni.com in your registration.
+
+// split()
+let text2 = "I love fruits";
+let words = text2.split(' ');
+console.log(words); // Expected output: ['I', 'love', 'fruits']
+
+// includes()
+let text3 = "I love fruits.";
+console.log(text3.includes("fruits")); // Expected output: True
+console.log(text3.includes("banana")); // Expected output: False
+
+// repeat()
+let num = 3;
+for (let i = 0; i <= num; i++) {
+    console.log('*'.repeat(i));
+}
