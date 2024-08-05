@@ -4,4 +4,4 @@ function reverseString(str) {
     let joinStr = reverseStr.join(``); //Тук се махат всички `` и пак се превръща в един общ string, тоест [`olleH`]
     console.log(joinStr); //Тук се принтира това, което сме получили като joinStr, тоест olleH
 }
-reverseString(`Hello`)
+reverseString('Hello')

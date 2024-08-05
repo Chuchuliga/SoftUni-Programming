@@ -1,8 +1,8 @@
 function loops() {
-
     let points = 0;
 
     for (let row = 1; row <= 3; row++) {
+
         for (let col = 1; col <= 5; col++) {
             
             if (row == 1 && col == 4) {
@@ -18,7 +18,6 @@ function loops() {
             }
         }
     }
-
     console.log(points);
 }
 

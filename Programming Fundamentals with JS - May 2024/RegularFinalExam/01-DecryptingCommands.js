@@ -59,8 +59,9 @@ function decryptingCommands(input) {
     }
 }
 
-decryptingCommands(["HappyNameDay", "Replace p r", "Make Lower", "Cut 2 23", "Sum -2 2", "Finish"])
-// HarryNameDay
-// harrynameday
-// Invalid indices!
-// Invalid indices!
+decryptingCommands(["ILikeSoftUni", "Replace I We", "Make Upper", "Check SoftUni", "Sum 1 4", "Cut 1 4", "Finish"])    
+// WeLikeSoftUni
+// WELIKESOFTUNI
+// Message doesn't contain SoftUni
+// 293
+// WESOFTUNI
