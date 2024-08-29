@@ -1,0 +1,128 @@
+Headings: <h1></h1> to <h6></h6>
+Paragraphs: <p></p>
+Break: <br>
+Hyperlink: <a></a>
+Image: <img>
+Ordered list: <ol></ol>
+Unorderd list: <ul></ul>
+List Item: <li></li>
+Definition lists: <dl></dl>
+Terms: <dt></dt>
+Definitions: <dd></dd>
+Introductory content: <header></header>
+Navigation link: <nav></nav>
+Main content: <main></main>
+Left / right navigation: <aside></aside>
+Bottom content: <footer></footer>
+Section: <section></section>
+Self-contained composition: <article></article>
+Figure: <figure></figure>
+Figcaption: <Figcaption></Figcaption>
+Details + Summary: <details> <summary></summary> </details>
+Time: <time></time>
+Address: <address></address>
+Button: <button></button>
+
+
+# Zen Code (Emmet):
+
+ul>li.red*6
+    ||
+    \/
+<ul>
+    <li class="red"></li>
+    <li class="red"></li>
+    <li class="red"></li>
+    <li class="red"></li>
+    <li class="red"></li>
+    <li class="red"></li>
+</ul>
+
+div#page>div.logo+ul#menu>li*3>a
+    ||
+    \/
+<div id="page">
+    <div class="logo"></div>
+    <ul id="menu">
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</div>
+
+# Form: 
+
+<form>
+    <label for="username">username</label>
+    <input type="text" name="username">
+    <label for="password">password</label>
+    <input type="password" name="password">
+    <input type="submit" value="Login">
+</form>
+
+<input type="text">
+<input type="number">
+<input type="password">
+<input type="email">
+<input type="search">
+<input type="checkbox">
+<input type="radio">
+<input type="range">
+<input type="submit">
+<input type="button">
+<input type="file">
+<input type="reset">
+
+<!-- value - specifies the initial value for an input field -->
+<!-- name - specifies the name of the input element -->
+<!-- placeholder - specifies a hint that describes the expected value of the input field -->
+<!-- required - the field must be filled out before submitting the form -->
+<!-- autofocus - the input should automatically get focus when the page load -->
+<!-- disabled - specifies that the input field is disabled -->
+<!-- min and max - specify the minimum and maximum values -->
+<!-- <fieldset> - used to group related data in a form -->
+<!-- <legend> - defines a caption for the <fieldset> element -->
+<!-- <select> - defines a drop-down list -->
+<!-- <option> - defines an option that can be selected -->
+<!-- <textarea> - defines a multi-line input field -->
+
+# Table:
+
+<table border="1">
+    <tr>
+        <td>A</td><td>B</td><td>C</td>
+    </tr>
+    <tr>
+        <td>D</td><td>E</td><td>F</td>
+    </tr>
+</table>
+
+<table border="1">
+<tbody>
+    <thead>
+        <tr>
+            <th>Original URL</th>
+            <th>Visits</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>https://nakov.com</td>
+        <td>160</td>
+    </tr>
+</tbody>
+    <tfoot>
+        <tr>
+            <td>Total visits</td>
+            <td>289</td>
+        </tr>
+    </tfoot>
+</table>
+    
+
+Table: <table></table>
+Row: <tr></tr>
+Cell: <td></td>
+Header cell: <th></th>
+Table header: <thead></thead>
+Table body: <tbody></tbody>
+Table footer: <tfoot></tfoot>
