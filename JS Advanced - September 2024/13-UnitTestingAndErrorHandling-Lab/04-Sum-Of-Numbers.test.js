@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { sumOfNumbers as sum } from "./sumOfNumbers.js";
+import { sum } from "./04-Sum-Of-Numbers.js";
 
 describe("Sum Numbebrs", function () {
   describe("Happy path", function () {
