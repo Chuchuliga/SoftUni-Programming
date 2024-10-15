@@ -1,4 +1,4 @@
-function createCalculator() {
+export function createCalculator() {
   let value = 0;
   return {
     add: function (num) {

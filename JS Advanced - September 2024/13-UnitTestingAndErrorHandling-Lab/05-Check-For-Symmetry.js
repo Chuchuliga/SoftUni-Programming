@@ -1,4 +1,4 @@
-function isSymmetric(arr) {
+export function isSymmetric(arr) {
   if (!Array.isArray(arr)) {
     return false; // Non-arrays are non-symmetric
   }

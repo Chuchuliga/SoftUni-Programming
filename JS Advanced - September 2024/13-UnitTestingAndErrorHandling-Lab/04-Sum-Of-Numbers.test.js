@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { sum } from "./04-Sum-Of-Numbers.js";
 
-describe("Sum Numbebrs", function () {
+describe("Sum Numbers", function () {
   describe("Happy path", function () {
     it("works with numbers", () => {
       expect(sum([1, 1])).to.equal(2);

@@ -1,4 +1,4 @@
-function rgbToHexColor(red, green, blue) {
+export function rgbToHexColor(red, green, blue) {
   if (!Number.isInteger(red) || red < 0 || red > 255) {
     return undefined; // Red value is invalid
   }
